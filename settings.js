@@ -22,14 +22,14 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.owner = ['917878663308'] //ur owner number
-global.ownernomer = "917878663308" //ur owner number2
+global.ownernomer = "919057434516" //ur owner number2
 global.ownername = "GOKUBLACK" //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
-global.botname = "Cheems"
+global.botname = "┈━═☆❣️ꕶ𝐡ɹ𝘂ᵗⅈ❣️☆═━┈"
 global.ownernumber = '917878663308'
 global.ownername = 'GokuBlack'
 global.ownerNumber = ["917878663308@s.whatsapp.net"]
@@ -39,8 +39,8 @@ global.wagc = "https://chat.whatsapp.com/"
 global.themeemoji = '🪀'
 global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
-global.packname = "GokuBlack"
-global.author = "Tera baap hai"
+global.packname = "┈━═☆❣️ꕶ𝐡ɹ𝘂ᵗⅈ❣️☆═━┈"
+global.author = ""
 global.creator = "917878663308@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
@@ -61,7 +61,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 
 //messages
 global.mess = {
-    success: 'Nikhil madarchod hai', 
+    success: 'Done Successfully', 
 }
 
 let file = require.resolve(__filename)
