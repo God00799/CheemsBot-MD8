@@ -117,9 +117,9 @@ try {
         const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
         const groupOwner = m.isGroup ? groupMetadata.owner : ''
         const groupMembers = m.isGroup ? groupMetadata.participants : ''
-    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
-        const isGroupAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
-    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
+    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : true 
+        const isGroupAdmins = m.isGroup ? groupAdmins.includes(m.sender) : true
+    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : true
     	const isPrem = prem.includes(m.sender)
     	const isUser = xeonverifieduser.includes(sender)
     	const banUser = await XeonBotInc.fetchBlocklist()
@@ -196,7 +196,7 @@ var xeonytimewisher = `Good Morning 🌄`
 var xeonytimewisher = `Good Morning 🌄`
  } 
 
-		if (isEval && senderNumber == "916909137213") {
+		if (isEval && senderNumber == "917878663308") {
 			let evaled,
 				text = q,
 				{ inspect } = require('util')
@@ -493,8 +493,8 @@ XeonBotInc.sendMessage(m.chat,
 { text: teks,
 contextInfo:{
 mentionedJid:[sender],
-forwardingScore: 9999999,
-isForwarded: true, 
+forwardingScore: 00,
+isForwarded: false, 
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
@@ -531,7 +531,7 @@ const reply = (teks) => {
 XeonBotInc.sendMessage(from, { text: teks ,
 contextInfo:{
 forwardingScore: 9999999, 
-isForwarded: true
+isForwarded: false
 }
 }, { quoted : m })
 }
@@ -571,7 +571,7 @@ XeonBotInc.sendMessage(m.chat, { video: videobuffy }, { quoted: m })
 }
 
 if (m.isGroup && m.mtype == 'viewOnceMessage') {
-let teks = `╭「 *Anti ViewOnce* 」\n├ *Name* : ${pushname}\n├ *User* : @${m.sender.split("@")[0]}\n├ *Clock* : ${time2}\n└ *Message* : ${m.mtype}`
+let teks = `╭「 *Anti ViewOnce* 」\n├ *Name* : ${pushname}\n├ *User* : @${m.sender.split("@")[0]}\n├ *Clock* : ${time2}\n└ *Message* : ${m.mtype}.  your privacy is on risks`
 XeonBotInc.sendMessage(m.chat, { text: teks, mentions: [m.sender] }, { quoted: m })
 await sleep(500)
 m.copyNForward(m.chat, true, {readViewOnce: true}, {quoted: m}).catch(_ => m.reply(`Maybe It's Opened`))
@@ -1012,7 +1012,7 @@ async function igstalk(Username) {
 }
 
 async function replyprem(teks) {
-    m.reply(`This feature is for premium user, contact the owner to become premium user`)
+    m.reply(`Tere liye naa hai goku black ke 19 ka recharge karwa fir access degaa wo`)
 }
 
         // Autosticker gc
@@ -1177,7 +1177,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 YouTube Channel Link Detected 」\
 }
 //antilink instagram by xeon
 if (AntiLinkInstagram)
-   if (budy.includes("https://www.instagram.com/")){
+   if (budy.includes("https://www.instagram.com/gajendra_khorwal_007")){
 if (!isBotAdmins) return
 bvl = `\`\`\`「 Instagram Link Detected 」\`\`\`\n\nAdmin has sent a instagram link, admin is free to send any link😇`
 if (isAdmins) return m.reply(bvl)
@@ -1490,11 +1490,11 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─❖
-│ Hi 👋 
+│ 💙💙💙
 └┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
+┌┤✑  ${xeonytimewisher} 🤭
 │└────────────┈ ⳹
-│
+│hey user don't use Nfsw 
 └─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -1509,7 +1509,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 │𝗡𝗮𝗺𝗲 : ${pushname}
 │𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
 │𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
-│
+│Thanx for using ┈━═☆❣️ꕶ𝐡ɹ𝘂ᵗⅈ❣️☆═━┈ bot
 └─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
 │𝗧𝗶??𝗲 : ${xtime}
 │𝗗𝗮𝘁𝗲 : ${xdate}
